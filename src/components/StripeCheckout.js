@@ -42,7 +42,7 @@ const CheckoutForm = () => {
 
   useEffect(() => {
     createPaymentIntent();
-  }, []);
+  });
 
   const cardStyle = {
     style: {
