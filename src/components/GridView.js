@@ -1,7 +1,6 @@
 import React from "react";
 import styled from "styled-components";
 import Product from "./Product";
-import { useState } from "react";
 const GridView = ({ products }) => {
   var products_all = Object.values(products);
 
