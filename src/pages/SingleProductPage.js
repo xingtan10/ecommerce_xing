@@ -34,7 +34,7 @@ const SingleProductPage = () => {
         navigate("/");
       }, 3000);
     }
-  }, [error]);
+  });
   if (loading) {
     return <Loading />;
   }
